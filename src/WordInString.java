@@ -8,8 +8,8 @@ public class WordInString {
     }
 
     public static void main(String[] args) {
-        String sentence = "The quick brown fox jumps over the lazy dog";
-        String wordToFind = "quick";
+        String sentence = "hello world";
+        String wordToFind = "hello";
         boolean isWordFound = containsWord(sentence, wordToFind);
         if (isWordFound) {
             System.out.println("The word '" + wordToFind + "' was found in the sentence.");
