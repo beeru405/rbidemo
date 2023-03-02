@@ -15,11 +15,6 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 	
-  <modules>
-    <module>server</module>
-    <module>webapps</module>
-  </modules>
-	
  <distributionManagement>
     <site>
       <id>site-server</id>
