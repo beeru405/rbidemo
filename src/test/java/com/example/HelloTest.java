@@ -1,4 +1,4 @@
-package com.training.example;
+package com.example;
 
 import static org.junit.Assert.*;
 
