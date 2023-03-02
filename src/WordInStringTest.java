@@ -5,43 +5,43 @@ public class WordInStringTest {
 
     @Test
     public void testWordInString() {
-        String sentence = "The quick brown fox jumps over the lazy dog";
-        assertTrue(sentence.contains("quick"));
+        String sentence = "hello world";
+        assertTrue(sentence.contains("hello"));
     }
 
     @Test
     public void testWordNotInString() {
-        String sentence = "The quick brown fox jumps over the lazy dog";
+        String sentence = "hello world";
         assertFalse(sentence.contains("cat"));
     }
 
     @Test
     public void testWordInEmptyString() {
         String sentence = "";
-        assertFalse(sentence.contains("quick"));
+        assertFalse(sentence.contains("hello"));
     }
 
     @Test
     public void testNullString() {
         String sentence = null;
-        assertFalse(sentence.contains("quick"));
+        assertFalse(sentence.contains("hello"));
     }
     
     @Test
     public void testWordInStringCaseSensitive() {
-        String sentence = "The quick brown fox jumps over the lazy dog";
-        assertFalse(sentence.contains("Quick"));
+        String sentence = "hello world";
+        assertFalse(sentence.contains("Hello"));
     }
 
     @Test
     public void testWordInStringCaseInsensitive() {
-        String sentence = "The quick brown fox jumps over the lazy dog";
-        assertTrue(sentence.toLowerCase().contains("quick"));
+        String sentence = "hello world";
+        assertTrue(sentence.toLowerCase().contains("hello"));
     }
     
     @Test
     public void testWordWithSpecialCharacters() {
-        String sentence = "The quick brown fox jumps over the lazy dog!";
-        assertTrue(sentence.contains("lazy dog!"));
+        String sentence = "hello world";
+        assertTrue(sentence.contains("hello!"));
     }
 }
