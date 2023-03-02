@@ -1,3 +1,4 @@
+package com.src
 public class WordInString {
     
     public static boolean containsWord(String sentence, String wordToFind) {
