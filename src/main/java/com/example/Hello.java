@@ -1,4 +1,4 @@
-package com.training.example;
+package com.example;
 public class Hello
 {
 
