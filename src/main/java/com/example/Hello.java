@@ -1,5 +1,5 @@
 package com.training.example;
-public class Palindrome
+public class Hello
 {
 
 // Function that returns true if the word is found
