@@ -36,4 +36,6 @@ public class HelloTest{
     @Test
     public void testWordWithSpecialCharacters() {
         String sentence = "hello world";
-        asse
+        assertTrue(sentence.contains("hello"));
+    }
+}
