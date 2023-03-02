@@ -6,7 +6,7 @@ import org.junit.Test;
 
 
 
-public class PalindromeTest{
+public class HelloTest{
 
 
 	@Test
